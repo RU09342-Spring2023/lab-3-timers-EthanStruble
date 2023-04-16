@@ -12,7 +12,8 @@
 void gpioInit();
 void timerInit();
 int Speed = 0;      //incrementing the speed of LED
-void main(){
+void main()
+{
 
     WDTCTL = WDTPW | WDTHOLD;               // Stop watchdog timer
     gpioInit();
